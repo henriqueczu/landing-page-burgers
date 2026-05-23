@@ -1,6 +1,6 @@
 export const badges = [
   { icon: '🍔', label: 'Burger Artesanal' },
-  { icon: '🔥', label: 'Espetos na Brasa' },
+  { icon: '🔥', label: 'Feito no Fogo' },
   { icon: '🥩', label: 'Ingredientes Frescos' },
   { icon: '❤️', label: 'Feito com Amor' },
 ]
@@ -11,32 +11,13 @@ export const menuCategories = [
     title: 'Hamburgers',
     obs: 'Todos acompanham fritas!',
     items: [
-      { name: 'Deck Clássico',    price: '33,90', desc: 'Pão selado na manteiga, 2 hamburgers, cheddar e molho da casa' },
-      { name: 'Deck Salada',      price: '35,90', desc: 'Pão brioche, hambúrgers, cheddar, alface, tomate, cebola roxa e molho da casa' },
-      { name: 'Deck Bacon',       price: '38,90', desc: 'Pão selado na manteiga, 2 hamburgers, cheddar, bacon e molho da casa' },
-      { name: 'Deck Melt do Pai', price: '44,90', desc: 'Pão selado na manteiga, 2 hamburgers, cheddar, bacon, cebola caramelizada e molho da casa' },
-      { name: 'Deck Onion',       price: '45,90', desc: 'Pão brioche, 2 hambúrguers, cheddar, bacon, onions, molho da casa e barbecue' },
-      { name: 'Deck Tropical',    price: '59,90', desc: 'Pão brioche, hambúrguer, abacaxi ao mel, rúcula, cheddar e molho da casa' },
-      { name: 'Deck Supremo',     price: '59,90', desc: 'Pão brioche, 3 hambúrguers, cheddar, bacon, alface, tomate, cebola roxa e molho da casa' },
-    ]
-  },
-  {
-    emoji: '🥩',
-    title: 'Espetinhos do Deck',
-    items: [
-      { name: 'Carne',    price: '9,90' },
-      { name: 'Frango',   price: '9,90' },
-      { name: 'Coração',  price: '9,90' },
-      { name: 'Kafta',    price: '9,90' },
-      { name: 'Linguiça', price: '9,90' },
-    ]
-  },
-  {
-    emoji: '🔥',
-    title: 'Combos de Espetos',
-    items: [
-      { name: 'Combo 1', price: '25,90', desc: '2 espetos da sua escolha, farofa e vinagrete' },
-      { name: 'Combo 2', price: '38,90', desc: '2 espetos da sua escolha, arroz, farofa, vinagrete, molho de alho e pão de alho' },
+      { name: 'Fogo Clássico',  price: '33,90', desc: 'Pão selado na manteiga, 2 hamburgers, cheddar e molho da casa' },
+      { name: 'Fogo Salada',    price: '35,90', desc: 'Pão brioche, hambúrgers, cheddar, alface, tomate, cebola roxa e molho da casa' },
+      { name: 'Fogo Bacon',     price: '38,90', desc: 'Pão selado na manteiga, 2 hamburgers, cheddar, bacon e molho da casa' },
+      { name: 'Fogo Melt',      price: '44,90', desc: 'Pão selado na manteiga, 2 hamburgers, cheddar, bacon, cebola caramelizada e molho da casa' },
+      { name: 'Fogo Onion',     price: '45,90', desc: 'Pão brioche, 2 hambúrguers, cheddar, bacon, onions, molho da casa e barbecue' },
+      { name: 'Fogo Tropical',  price: '59,90', desc: 'Pão brioche, hambúrguer, abacaxi ao mel, rúcula, cheddar e molho da casa' },
+      { name: 'Fogo Supremo',   price: '59,90', desc: 'Pão brioche, 3 hambúrguers, cheddar, bacon, alface, tomate, cebola roxa e molho da casa' },
     ]
   },
   {

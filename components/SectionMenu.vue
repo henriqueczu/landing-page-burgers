@@ -40,6 +40,68 @@ const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
 </script>
 
 <style scoped>
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 5vw, 3rem);
+}
+
+.eyebrow {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--fire);
+  margin-bottom: 0.6rem;
+}
+.eyebrow--fire { color: var(--amber); }
+
+.h2 {
+  font-size: clamp(1.85rem, 3.5vw, 2.75rem);
+  font-weight: 900;
+  line-height: 1.15;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+.h2 em { font-style: normal; color: var(--fire); }
+.h2--light { color: var(--white); }
+.h2--light em { color: var(--gold); }
+
+.sec-header {
+  text-align: center;
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+.sec-sub { margin-top: 0.75rem; color: var(--text2); font-size: 1rem; }
+.sec-sub--light { color: rgba(255,200,100,0.6); }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.btn--fire {
+  background: linear-gradient(135deg, var(--fire-dk) 0%, var(--fire) 50%, var(--fire-lt) 100%);
+  color: white;
+  box-shadow: 0 4px 20px rgba(255, 107, 0, 0.4);
+}
+.btn--fire:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(255, 107, 0, 0.6);
+  filter: brightness(1.1);
+}
+
 .menu {
   padding-block: clamp(4rem, 8vw, 6.5rem);
   background:

@@ -33,8 +33,8 @@
       <div class="about__copy">
         <span class="eyebrow">Quem Somos</span>
         <h2 class="h2">Feito com <em>fogo</em><br>e muito amor</h2>
-        <p>O Deck do Pai é uma hamburgeria artesanal e espetaria onde cada prato é preparado com ingredientes selecionados e muito carinho. Nossas receitas são únicas, desenvolvidas para quem aprecia um lanche de verdade.</p>
-        <p>Venha nos visitar em Várzea Paulista e descubra por que somos o point dos amantes de burger artesanal e espetos na brasa.</p>
+        <p>O Fogo Burguer é uma hamburgueria artesanal onde cada lanche é preparado com ingredientes selecionados, muito carinho e fogo de verdade. Nossas receitas são únicas, criadas para quem aprecia um burger de verdade.</p>
+        <p>Venha nos visitar e descubra por que somos o point dos amantes de burger artesanal.</p>
         <div class="about__badges">
           <div v-for="b in badges" :key="b.label" class="about__badge">
             <span class="about__badge-icon">{{ b.icon }}</span>
@@ -51,6 +51,32 @@ import { badges } from '~/data/menu.js'
 </script>
 
 <style scoped>
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 5vw, 3rem);
+}
+
+.eyebrow {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--fire);
+  margin-bottom: 0.6rem;
+}
+
+.h2 {
+  font-size: clamp(1.85rem, 3.5vw, 2.75rem);
+  font-weight: 900;
+  line-height: 1.15;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+.h2 em { font-style: normal; color: var(--fire); }
+
 .about {
   padding-block: clamp(4rem, 8vw, 6.5rem);
   background: var(--dark2);

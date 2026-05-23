@@ -2,17 +2,17 @@
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <img src="/logo.png" alt="Deck do Pai" class="footer__logo-img" />
+        <img src="/logo.png" alt="Fogo Burguer" class="footer__logo-img" />
       </div>
-      <p class="footer__tagline">Burgers artesanais & espetos na brasa</p>
+      <p class="footer__tagline">Burgers artesanais feitos no fogo</p>
       <nav class="footer__links">
         <a href="#sobre">Sobre</a>
         <a href="#cardapio">Cardápio</a>
         <a href="#horarios">Horários</a>
-        <a href="https://instagram.com/deckdopai" target="_blank">Instagram</a>
+        <a href="https://instagram.com/fogoburguer" target="_blank">Instagram</a>
       </nav>
       <p class="footer__addr">Av. Fernão Dias Paes Leme, 2530 — Várzea Paulista, SP</p>
-      <p class="footer__copy">© {{ new Date().getFullYear() }} Deck do Pai. Todos os direitos reservados.</p>
+      <p class="footer__copy">© {{ new Date().getFullYear() }} Fogo Burguer. Todos os direitos reservados.</p>
     </div>
   </footer>
 </template>
@@ -21,6 +21,12 @@
 </script>
 
 <style scoped>
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 5vw, 3rem);
+}
+
 .footer {
   background: #050300;
   padding-block: clamp(2rem, 4vw, 3.5rem);

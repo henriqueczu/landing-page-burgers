@@ -2,7 +2,7 @@
   <header class="nav" :class="{ 'nav--scrolled': isScrolled }">
     <div class="nav__inner">
       <a href="#inicio" class="nav__brand">
-        <img src="/logo.png" alt="Deck do Pai" class="nav__logo-img" />
+        <img src="/logo.png" alt="Fogo Burguer" class="nav__logo-img" />
       </a>
       <nav class="nav__desktop">
         <a href="#sobre" class="nav__link">Sobre</a>

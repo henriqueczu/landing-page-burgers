@@ -33,6 +33,37 @@ const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
 </script>
 
 <style scoped>
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 5vw, 3rem);
+}
+
+.eyebrow {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--fire);
+  margin-bottom: 0.6rem;
+}
+
+.h2 {
+  font-size: clamp(1.85rem, 3.5vw, 2.75rem);
+  font-weight: 900;
+  line-height: 1.15;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+.h2 em { font-style: normal; color: var(--fire); }
+
+.sec-header {
+  text-align: center;
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+
 .order {
   padding-block: clamp(4rem, 8vw, 6.5rem);
   background:
